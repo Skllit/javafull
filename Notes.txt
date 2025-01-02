@@ -5,7 +5,11 @@
 //before jan 1
 
 
-/*
+
+ //jan 2 (operators,)
+
+
+
  public class hello {
 
     public static void main(String[] args) {
@@ -14,9 +18,17 @@
     }
 }
 
- */
+//2nd jan
+
+operators 
+================  
+logical && ,||, !
+assignment - +-/*<> <=,>=,==
+conditions -   if else if else
 
 
 
- //jan 2 (operators,)
+
+
+
     
