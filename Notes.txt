@@ -28,6 +28,101 @@ conditions -   if else if else
 
 
 
+// 3rd jan
+teranary operators
+  var = condition? t: f;
+  result=a>b?t:f;
+
+Switch statements 
+
+   switch(n){
+
+    case n:
+     break;
+
+    default:
+
+   }
+
+loops :
+ for(int i=0;i<n;i++){}
+ while(n>0){}
+ do{}while(condition)
+
+
+
+
+ objects : which has property and behaviours
+ class  conatins objects ,methods  it is blueprint  , simulation of real world entity
+
+ class clac{
+
+    int a; //instance variables  , what class knows
+    public int add(int a,int b){    // what class does,  behaviour
+        return a+b;
+    }
+}
+public class hello {
+
+    public static void main(String[] args) {
+
+        clac c= new clac(); // creaating object  named c  of type called as clac
+        int r = c.add(2,3);
+        System.out.println(r);
+
+    }
+}
+
+
+
+method overloading 
+
+class clac{
+
+    int a; //instance variables  , what class knows
+    public int add(int a,int b){    // what class does,  behaviour
+        return a+b;
+    }
+
+    public int add(int a , int b, int c){
+        return a+b+c;
+    }
+}
+public class hello {
+
+    public static void main(String[] args) {
+
+        clac c= new clac(); // creaating object  named c  of type called as clac
+        int r = c.add(2,3);
+        System.out.println(r);
+
+    }
+}
+
+
+theory
+
+every methods has a stack to store the variabe(local) name and value
+every object is in heap where it has a unique adress and also it stores the instance variables
+the reference to the object is stored in a stack;
+
+
+
+/// arrays
+ array of elements
+
+ int num[]={1,2,4};
+ int num1[]=new int[4];
+ num1[0]=7;
+
+
+
+ /// end of jan3 4:00:00;
+
+
+ 
+
+
 
 
 
