@@ -120,7 +120,33 @@ the reference to the object is stored in a stack;
  /// end of jan3 4:00:00;
 
 
- 
+ 2d arrays
+  int nums[][]=new int[3][4] //// 3 rows 4 columns
+
+  jaggered array
+
+  int nums[][]= new  int [3][?]
+
+drawbacks ///////
+fixed size
+
+
+strings 
+string s1="";
+or 
+string s1= new string("");
+
+
+strings are mutable
+imutable strings can be done using string buffer or string  builer
+
+string s1 = abc
+sting s2 = abc
+
+s1===s2? -----> true 
+
+string are specially stored in a string constant pool in the heap 
+
 
 
 
